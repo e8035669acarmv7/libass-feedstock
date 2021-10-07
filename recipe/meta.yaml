@@ -21,9 +21,8 @@ requirements:
     - automake
     - pkg-config
     - libtool
-  host:
     - nasm
-    - perl
+  host:
     - freetype
     - fribidi
     - fontconfig
