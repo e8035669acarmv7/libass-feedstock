@@ -30,12 +30,6 @@ requirements:
     - zlib
     - harfbuzz
   run:
-    - freetype
-    - fribidi
-    - fontconfig
-    - expat
-    - zlib
-    - harfbuzz
 
 test:
   commands:
