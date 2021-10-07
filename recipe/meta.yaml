@@ -10,7 +10,7 @@ source:
   sha256: 881f2382af48aead75b7a0e02e65d88c5ebd369fe46bc77d9270a94aa8fd38a2
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
 
 requirements:
@@ -21,9 +21,8 @@ requirements:
     - automake
     - pkg-config
     - libtool
-  host:
     - nasm
-    - perl
+  host:
     - freetype
     - fribidi
     - fontconfig
@@ -31,12 +30,6 @@ requirements:
     - zlib
     - harfbuzz
   run:
-    - freetype
-    - fribidi
-    - fontconfig
-    - expat
-    - zlib
-    - harfbuzz
 
 test:
   commands:
